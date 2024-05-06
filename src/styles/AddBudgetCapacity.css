@@ -1,0 +1,57 @@
+
+.add-budget-container {
+    margin: -20% auto 0; 
+    padding: 30px; 
+    border-radius: 10px;
+    border: 1px solid #333; 
+}
+
+.header {
+    color: #333;
+    border-bottom: 2px solid #333; 
+}
+
+.select-dropdown {
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+.input-field {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-budget-button {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #3f5b9d;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.capacity-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid #5f46d2; 
+    border-radius: 10px;
+}
+
+.capacity-table th, .capacity-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.capacity-table th {
+    background-color: #5f46d2;
+    color: white;
+    border: 1px solid #5f46d2; 
+}

@@ -1,0 +1,53 @@
+/* AddBudgetForm.css */
+
+.add-budget-form {
+     max-width: 400px;
+    margin: -25% auto 0; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(95, 89, 89, 0.1); 
+}
+
+.add-budget-form label {
+    
+    margin-bottom: 10px;
+}
+
+.add-budget-form input
+ {
+    
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.add-budget-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.add-budget-form button {
+    
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-budget-form button:hover {
+    
+}
+
+
+.add-budget-form .react-datepicker__month-text.react-datepicker__month--selected:hover,
+.add-budget-form .react-datepicker__month-text.react-datepicker__month--in-range:hover,
+.add-budget-form .react-datepicker__month-text.react-datepicker__month--in-selecting-range:hover {
+  background-color: transparent; 
+  color: #180909; 
+}
+
+
+.add-budget-form .react-datepicker__month-container {
+}

@@ -1,0 +1,45 @@
+
+.budget-list-container {
+    margin-top: 20px;
+  }
+
+  .list-header {
+    color: #333;
+  }
+
+  .select-dropdown {
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .budget-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+
+  .table-row.header {
+    background-color: #5f46d2;
+    color: white;
+  }
+
+  .table-cell {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .table-cell.remaining-balance {
+    color: #ef0b3c;
+  }
+
+  .loading-message,
+  .no-data-message {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
